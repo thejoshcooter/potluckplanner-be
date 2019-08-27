@@ -1,0 +1,40 @@
+{
+	"name": "potluck-planner-backend",
+	"version": "1.0.0",
+	"description": "Potluck Planner Backend for Build Week",
+	"main": "index.js",
+	"scripts": {
+		"server": "nodemon index.js",
+		"start": "node index.js",
+		"test": "cross-env DB_ENV=testing jest"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/potluck-planner-7-29-8-2/backend.git"
+	},
+	"author": "Lambda",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/potluck-planner-7-29-8-2/backend/issues"
+	},
+	"homepage": "https://github.com/potluck-planner-7-29-8-2/backend#readme",
+	"devDependencies": {
+		"cross-env": "^5.2.0",
+		"jest": "^24.8.0",
+		"nodemon": "^1.19.1",
+		"supertest": "^4.0.2"
+	},
+	"dependencies": {
+		"bcryptjs": "^2.4.3",
+		"cors": "^2.8.5",
+		"dotenv": "^8.0.0",
+		"express": "^4.17.1",
+		"helmet": "^3.20.0",
+		"heroku": "^7.26.2",
+		"jsonwebtoken": "^8.5.1",
+		"knex": "^0.19.1",
+		"knex-cleaner": "^1.2.1",
+		"pg": "^7.12.0",
+		"sqlite3": "^4.0.9"
+	}
+}

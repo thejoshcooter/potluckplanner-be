@@ -1,0 +1,10 @@
+# Dependency directories
+node_modules/
+
+# dotenv environment variables file
+.env
+secret.js
+
+# databases
+potluck-planner.db3
+test.db3
