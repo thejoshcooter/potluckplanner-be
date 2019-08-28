@@ -16,7 +16,7 @@ router.post("/register", async (req, res) => {
 		console.log(error);
 		res
 			.status(500)
-			.json({ error: "Something went wrong during registration." });
+			.json({ error: "Something went wrong during registration.", error });
 	}
 });
 
