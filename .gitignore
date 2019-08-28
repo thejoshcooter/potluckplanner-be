@@ -6,5 +6,5 @@ node_modules/
 secret.js
 
 # databases
-potluck-planner.db3
-test.db3
+# potluck-planner.db3
+# test.db3
