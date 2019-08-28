@@ -6,7 +6,7 @@ const secrets = require("../config/secrets");
 const userDB = require("../users/userModel");
 const middleware = require("../middleware");
 
-router.post("/register", async (req, res) => {
+router.post("/register", middleware.checkUserRegister, async (req, res) => {
 	try {
 		const hash = bcrypt.hashSync(req.body.password, 10);
 		req.body.password = hash;
